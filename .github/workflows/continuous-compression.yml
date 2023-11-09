@@ -14,3 +14,4 @@ jobs:
       - uses: namoscato/action-tinify@v1
         with:
           api_key: ${{ secrets.TINIFY_API_KEY }}
+          commit_message: "feat: add compressed textures"
